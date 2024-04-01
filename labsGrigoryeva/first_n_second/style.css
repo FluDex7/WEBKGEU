@@ -1,6 +1,23 @@
 body {
     margin: 0;
     padding: 0;
+
+    background: white;
+    color: #222222;
+    font-family: Chandas, serif;
+}
+
+a {
+    color: #11085e;
+    transition: 200ms all;
+}
+
+a:hover {
+    color: #efd30e
+}
+
+a:active {
+    color: red;
 }
 
 .container {

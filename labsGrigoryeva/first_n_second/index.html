@@ -6,9 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Резюме - Романов Данил Павлович</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
@@ -35,6 +35,7 @@
             <a href="#stack">Стэк</a>
             <a href="#education">Образование</a>
             <a href="#rod">Родственники</a>
+            <a href="#reg">Регистрация</a>
             <hr>
         </div>
         <div class="content">
@@ -137,7 +138,35 @@
                 </tr>
             </table>
         </div>
+        <hr>
+        <div class="content">
+            <a name="reg"></a>
+            <form onsubmit="validate()">
+                <h3>Регистрация</h3>
+                <label for="fam">Фамилия</label>
+                <input class="form-control" type="text" id="fam" placeholder="Введите фамилию" required>
+                <label for="name">Имя</label>
+                <input class="form-control" type="text" id="name" placeholder="Введите имя" required>
+                <label for="father">Отчество</label>
+                <input class="form-control" type="text" id="father" placeholder="Введите отчество" required>
+                <div class="sex"><br>
+                    <label>Пол</label><br>
+                    <input type="radio" name="sex" id="man" checked>
+                    <label for="man">Мужской</label><br>
+                    <input type="radio" name="sex" id="woman">
+                    <label for="woman">Женский</label>
+                </div>
+                <label for="login">Логин</label>
+                <input class="form-control" id="login" name="login" type="text" placeholder="Введите логин" required>
+                <label for="password">Пароль</label>
+                <input class="form-control" id="password" name="password" type="password" placeholder="Введите пароль" required>
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email" placeholder="Введите email" required>
+                <button type="submit" class="btn btn-primary mt-3" onclick="validate()">Зарегестрироваться</button>
+            </form>
+        </div>
     </div>
 </div>
+<script src="scripts.js"></script>
 </body>
 </html>

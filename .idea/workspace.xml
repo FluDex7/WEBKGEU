@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5616d029-69fb-4811-87d2-b9d1840bb035" name="Changes" comment="first practice">
+    <list default="true" id="5616d029-69fb-4811-87d2-b9d1840bb035" name="Changes" comment="first lab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/first/img/im.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/labsGrigoryeva/first_n_second/img/im.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/first/img/kgeu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/labsGrigoryeva/first_n_second/img/kgeu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/first/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/labsGrigoryeva/first_n_second/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/first/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/labsGrigoryeva/first_n_second/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,9 +41,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/master/PycharmProjects/drf&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,7 +101,13 @@
       <updated>1709321703879</updated>
       <workItem from="1709321705661" duration="2746000" />
       <workItem from="1709367198721" duration="5000" />
-      <workItem from="1709547999765" duration="4792000" />
+      <workItem from="1709547999765" duration="7708000" />
+      <workItem from="1710572078600" duration="822000" />
+      <workItem from="1710706416730" duration="40000" />
+      <workItem from="1710756155080" duration="160000" />
+      <workItem from="1710757478711" duration="2696000" />
+      <workItem from="1710763567135" duration="2998000" />
+      <workItem from="1710844516645" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -127,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709323420997</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first lab">
+      <option name="closed" value="true" />
+      <created>1709553627454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709553627454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="first practice" />
+    <MESSAGE value="first lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="first lab" />
   </component>
 </project>
